@@ -26,9 +26,6 @@ const HeroSection = () => {
 
       <div className="container mx-auto px-3 xs:px-4 sm:px-6 lg:px-8 relative z-10 pt-[calc(4rem+env(safe-area-inset-top,0px))] md:pt-[calc(5rem+env(safe-area-inset-top,0px))] pb-10 sm:pb-12">
         <div className="max-w-full xs:max-w-xl sm:max-w-2xl min-w-0">
-          <p className="mb-4 w-full text-center text-sm font-medium text-white/95 drop-shadow-md sm:text-base">
-            Ramdoot Rentals 🚗 – Website Live
-          </p>
           <div className="inline-flex max-w-full items-center gap-2 px-3 py-1.5 xs:px-4 xs:py-2 rounded-full bg-primary/10 border border-primary/20 text-primary text-xs xs:text-sm mb-5 sm:mb-6 animate-fade-up text-left">
             <Sparkles className="w-3.5 h-3.5 xs:w-4 xs:h-4 shrink-0" />
             <span className="leading-snug">Trusted Self-Drive Service in Delhi NCR</span>
