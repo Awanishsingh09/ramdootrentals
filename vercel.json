@@ -1,0 +1,7 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "installCommand": "cd ramdoot-rentals-landing-main && npm install",
+  "buildCommand": "cd ramdoot-rentals-landing-main && npm run build",
+  "outputDirectory": "ramdoot-rentals-landing-main/dist",
+  "rewrites": [{ "source": "/(.*)", "destination": "/index.html" }]
+}
